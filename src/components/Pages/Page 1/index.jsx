@@ -12,6 +12,7 @@ import ParentInformationCard from "../../Molecule/Modals/ParentInformation/Paren
 import ParentInformationCardSupplemental from "../../Molecule/Modals/supplemental/supplemental";
 import AgreementDetailModal from "../../Molecule/Modals/Agreement/Agreement";
 import RegistrationSuccessModal from "../../Molecule/Modals/SucessfullRegistraion/Sucessregistration";
+import SportsModal2 from "../../Molecule/Modals/Radio Buttons/RadioButtones";
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -131,7 +132,7 @@ const MyComponent = () => {
             />
           )}
           {step === 1 && (
-            <SportsModal
+            <SportsModal2
               open={true}
               handleClose={handleClose}
               handleContinue={handleNext}
